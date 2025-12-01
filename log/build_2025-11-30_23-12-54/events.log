@@ -1,0 +1,360 @@
+[0.000000] (-) TimerEvent: {}
+[0.000622] (clearpath_nav2_demos) JobQueued: {'identifier': 'clearpath_nav2_demos', 'dependencies': OrderedDict()}
+[0.000732] (clearpath_nav2_demos) JobStarted: {'identifier': 'clearpath_nav2_demos'}
+[0.123170] (-) TimerEvent: {}
+[0.149188] (clearpath_nav2_demos) JobProgress: {'identifier': 'clearpath_nav2_demos', 'progress': 'cmake'}
+[0.151678] (clearpath_nav2_demos) Command: {'cmd': ['/usr/bin/cmake', '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos', '-DCMAKE_BUILD_TYPE=Debug', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos'], 'cwd': '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'dsandeshh', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/sandesh dhakal/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'GIT_ASKPASS': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dsandeshh', 'TERM_PROGRAM_VERSION': '1.106.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6439b509-b771-47f0-a4e3-75401a16dd91.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dsandeshh', 'NAME': 'Code', '_': '/usr/bin/colcon', 'WSL_INTEROP': '/run/WSL/680_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'PATH': '/home/dsandeshh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dsandeshh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/python3.7/Scripts/:/mnt/c/python3.7/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sandesh dhakal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.2/bin:/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96a23725850e0062.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/dsandeshh/.vscode-server/data/User/workspaceStorage/e3eda9ae30e780de3b547b1cfe4ee178/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4a7e241d1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install/clearpath_nav2_demos:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '3ed65abb-4618-449c-863d-a0643959e446', 'PWD': '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install/clearpath_nav2_demos:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.223963] (-) TimerEvent: {}
+[0.325787] (-) TimerEvent: {}
+[0.426146] (-) TimerEvent: {}
+[0.526628] (-) TimerEvent: {}
+[0.627010] (-) TimerEvent: {}
+[0.727406] (-) TimerEvent: {}
+[0.827796] (-) TimerEvent: {}
+[0.928167] (-) TimerEvent: {}
+[1.028555] (-) TimerEvent: {}
+[1.128844] (-) TimerEvent: {}
+[1.229216] (-) TimerEvent: {}
+[1.329591] (-) TimerEvent: {}
+[1.429942] (-) TimerEvent: {}
+[1.530401] (-) TimerEvent: {}
+[1.630792] (-) TimerEvent: {}
+[1.731175] (-) TimerEvent: {}
+[1.831474] (-) TimerEvent: {}
+[1.931821] (-) TimerEvent: {}
+[2.032256] (-) TimerEvent: {}
+[2.132685] (-) TimerEvent: {}
+[2.233027] (-) TimerEvent: {}
+[2.333387] (-) TimerEvent: {}
+[2.433786] (-) TimerEvent: {}
+[2.534186] (-) TimerEvent: {}
+[2.634773] (-) TimerEvent: {}
+[2.735195] (-) TimerEvent: {}
+[2.835543] (-) TimerEvent: {}
+[2.935917] (-) TimerEvent: {}
+[3.036357] (-) TimerEvent: {}
+[3.136766] (-) TimerEvent: {}
+[3.237129] (-) TimerEvent: {}
+[3.337558] (-) TimerEvent: {}
+[3.437893] (-) TimerEvent: {}
+[3.538402] (-) TimerEvent: {}
+[3.638783] (-) TimerEvent: {}
+[3.739135] (-) TimerEvent: {}
+[3.839541] (-) TimerEvent: {}
+[3.939973] (-) TimerEvent: {}
+[4.040376] (-) TimerEvent: {}
+[4.140725] (-) TimerEvent: {}
+[4.241103] (-) TimerEvent: {}
+[4.341421] (-) TimerEvent: {}
+[4.441796] (-) TimerEvent: {}
+[4.542297] (-) TimerEvent: {}
+[4.642701] (-) TimerEvent: {}
+[4.743111] (-) TimerEvent: {}
+[4.843468] (-) TimerEvent: {}
+[4.943838] (-) TimerEvent: {}
+[5.044206] (-) TimerEvent: {}
+[5.144544] (-) TimerEvent: {}
+[5.244878] (-) TimerEvent: {}
+[5.345239] (-) TimerEvent: {}
+[5.445636] (-) TimerEvent: {}
+[5.546021] (-) TimerEvent: {}
+[5.646417] (-) TimerEvent: {}
+[5.746780] (-) TimerEvent: {}
+[5.847174] (-) TimerEvent: {}
+[5.947573] (-) TimerEvent: {}
+[6.048017] (-) TimerEvent: {}
+[6.148365] (-) TimerEvent: {}
+[6.248763] (-) TimerEvent: {}
+[6.349339] (-) TimerEvent: {}
+[6.449711] (-) TimerEvent: {}
+[6.550031] (-) TimerEvent: {}
+[6.650480] (-) TimerEvent: {}
+[6.766337] (-) TimerEvent: {}
+[6.866771] (-) TimerEvent: {}
+[6.939429] (clearpath_nav2_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[6.994653] (-) TimerEvent: {}
+[7.095069] (-) TimerEvent: {}
+[7.195466] (-) TimerEvent: {}
+[7.295899] (-) TimerEvent: {}
+[7.396242] (-) TimerEvent: {}
+[7.496606] (-) TimerEvent: {}
+[7.597008] (-) TimerEvent: {}
+[7.740869] (-) TimerEvent: {}
+[7.841307] (-) TimerEvent: {}
+[7.941684] (-) TimerEvent: {}
+[8.042124] (-) TimerEvent: {}
+[8.149312] (-) TimerEvent: {}
+[8.249673] (-) TimerEvent: {}
+[8.349947] (-) TimerEvent: {}
+[8.450338] (-) TimerEvent: {}
+[8.550711] (-) TimerEvent: {}
+[8.651059] (-) TimerEvent: {}
+[8.751405] (-) TimerEvent: {}
+[8.851755] (-) TimerEvent: {}
+[8.952104] (-) TimerEvent: {}
+[9.052453] (-) TimerEvent: {}
+[9.152847] (-) TimerEvent: {}
+[9.253209] (-) TimerEvent: {}
+[9.353603] (-) TimerEvent: {}
+[9.454000] (-) TimerEvent: {}
+[9.554437] (-) TimerEvent: {}
+[9.654834] (-) TimerEvent: {}
+[9.755190] (-) TimerEvent: {}
+[9.855612] (-) TimerEvent: {}
+[9.956014] (-) TimerEvent: {}
+[10.056404] (-) TimerEvent: {}
+[10.156795] (-) TimerEvent: {}
+[10.257197] (-) TimerEvent: {}
+[10.357566] (-) TimerEvent: {}
+[10.457952] (-) TimerEvent: {}
+[10.558338] (-) TimerEvent: {}
+[10.658804] (-) TimerEvent: {}
+[10.759109] (-) TimerEvent: {}
+[10.859492] (-) TimerEvent: {}
+[10.959933] (-) TimerEvent: {}
+[11.060332] (-) TimerEvent: {}
+[11.160693] (-) TimerEvent: {}
+[11.174036] (clearpath_nav2_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[11.260825] (-) TimerEvent: {}
+[11.361173] (-) TimerEvent: {}
+[11.461533] (-) TimerEvent: {}
+[11.561860] (-) TimerEvent: {}
+[11.662363] (-) TimerEvent: {}
+[11.762744] (-) TimerEvent: {}
+[11.863139] (-) TimerEvent: {}
+[11.963588] (-) TimerEvent: {}
+[12.063988] (-) TimerEvent: {}
+[12.164367] (-) TimerEvent: {}
+[12.264723] (-) TimerEvent: {}
+[12.365097] (-) TimerEvent: {}
+[12.465453] (-) TimerEvent: {}
+[12.488919] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.565589] (-) TimerEvent: {}
+[12.665978] (-) TimerEvent: {}
+[12.766452] (-) TimerEvent: {}
+[12.866809] (-) TimerEvent: {}
+[12.967416] (-) TimerEvent: {}
+[13.068140] (-) TimerEvent: {}
+[13.189240] (-) TimerEvent: {}
+[13.290978] (-) TimerEvent: {}
+[13.391607] (-) TimerEvent: {}
+[13.492418] (-) TimerEvent: {}
+[13.593262] (-) TimerEvent: {}
+[13.694406] (-) TimerEvent: {}
+[13.795224] (-) TimerEvent: {}
+[13.896299] (-) TimerEvent: {}
+[13.997415] (-) TimerEvent: {}
+[14.091048] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.097808] (-) TimerEvent: {}
+[14.132105] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.139122] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.149932] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.198104] (-) TimerEvent: {}
+[14.299081] (-) TimerEvent: {}
+[14.399776] (-) TimerEvent: {}
+[14.500478] (-) TimerEvent: {}
+[14.539447] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.600665] (-) TimerEvent: {}
+[14.701109] (-) TimerEvent: {}
+[14.801571] (-) TimerEvent: {}
+[14.902106] (-) TimerEvent: {}
+[15.002548] (-) TimerEvent: {}
+[15.055028] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.068016] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.068802] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.069677] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.102782] (-) TimerEvent: {}
+[15.203368] (-) TimerEvent: {}
+[15.303977] (-) TimerEvent: {}
+[15.404419] (-) TimerEvent: {}
+[15.505308] (-) TimerEvent: {}
+[15.605812] (-) TimerEvent: {}
+[15.706347] (-) TimerEvent: {}
+[15.807094] (-) TimerEvent: {}
+[15.907863] (-) TimerEvent: {}
+[16.008617] (-) TimerEvent: {}
+[16.109280] (-) TimerEvent: {}
+[16.209769] (-) TimerEvent: {}
+[16.310256] (-) TimerEvent: {}
+[16.410850] (-) TimerEvent: {}
+[16.511253] (-) TimerEvent: {}
+[16.611726] (-) TimerEvent: {}
+[16.712276] (-) TimerEvent: {}
+[16.812690] (-) TimerEvent: {}
+[16.913428] (-) TimerEvent: {}
+[17.014014] (-) TimerEvent: {}
+[17.114399] (-) TimerEvent: {}
+[17.214802] (-) TimerEvent: {}
+[17.315206] (-) TimerEvent: {}
+[17.415615] (-) TimerEvent: {}
+[17.516031] (-) TimerEvent: {}
+[17.616462] (-) TimerEvent: {}
+[17.717128] (-) TimerEvent: {}
+[17.817628] (-) TimerEvent: {}
+[17.918190] (-) TimerEvent: {}
+[18.018902] (-) TimerEvent: {}
+[18.119737] (-) TimerEvent: {}
+[18.220351] (-) TimerEvent: {}
+[18.320791] (-) TimerEvent: {}
+[18.421235] (-) TimerEvent: {}
+[18.521667] (-) TimerEvent: {}
+[18.622133] (-) TimerEvent: {}
+[18.722523] (-) TimerEvent: {}
+[18.822944] (-) TimerEvent: {}
+[18.923487] (-) TimerEvent: {}
+[19.024206] (-) TimerEvent: {}
+[19.125000] (-) TimerEvent: {}
+[19.225683] (-) TimerEvent: {}
+[19.326559] (-) TimerEvent: {}
+[19.427726] (-) TimerEvent: {}
+[19.528477] (-) TimerEvent: {}
+[19.629362] (-) TimerEvent: {}
+[19.730142] (-) TimerEvent: {}
+[19.830877] (-) TimerEvent: {}
+[19.931734] (-) TimerEvent: {}
+[20.032414] (-) TimerEvent: {}
+[20.133249] (-) TimerEvent: {}
+[20.234193] (-) TimerEvent: {}
+[20.334930] (-) TimerEvent: {}
+[20.435647] (-) TimerEvent: {}
+[20.536367] (-) TimerEvent: {}
+[20.595809] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[20.636675] (-) TimerEvent: {}
+[20.737472] (-) TimerEvent: {}
+[20.838665] (-) TimerEvent: {}
+[20.939201] (-) TimerEvent: {}
+[21.039593] (-) TimerEvent: {}
+[21.140044] (-) TimerEvent: {}
+[21.240446] (-) TimerEvent: {}
+[21.340842] (-) TimerEvent: {}
+[21.441283] (-) TimerEvent: {}
+[21.527157] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[21.541489] (-) TimerEvent: {}
+[21.641900] (-) TimerEvent: {}
+[21.742490] (-) TimerEvent: {}
+[21.843085] (-) TimerEvent: {}
+[21.943532] (-) TimerEvent: {}
+[22.044120] (-) TimerEvent: {}
+[22.095893] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[22.144406] (-) TimerEvent: {}
+[22.245214] (-) TimerEvent: {}
+[22.345944] (-) TimerEvent: {}
+[22.446728] (-) TimerEvent: {}
+[22.547640] (-) TimerEvent: {}
+[22.648319] (-) TimerEvent: {}
+[22.749101] (-) TimerEvent: {}
+[22.849744] (-) TimerEvent: {}
+[22.950414] (-) TimerEvent: {}
+[23.051060] (-) TimerEvent: {}
+[23.151708] (-) TimerEvent: {}
+[23.252361] (-) TimerEvent: {}
+[23.353055] (-) TimerEvent: {}
+[23.453791] (-) TimerEvent: {}
+[23.554684] (-) TimerEvent: {}
+[23.655357] (-) TimerEvent: {}
+[23.756046] (-) TimerEvent: {}
+[23.759412] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[23.856278] (-) TimerEvent: {}
+[23.956941] (-) TimerEvent: {}
+[24.057569] (-) TimerEvent: {}
+[24.158313] (-) TimerEvent: {}
+[24.258970] (-) TimerEvent: {}
+[24.360069] (-) TimerEvent: {}
+[24.461915] (-) TimerEvent: {}
+[24.562762] (-) TimerEvent: {}
+[24.663571] (-) TimerEvent: {}
+[24.764240] (-) TimerEvent: {}
+[24.865029] (-) TimerEvent: {}
+[24.965682] (-) TimerEvent: {}
+[25.066581] (-) TimerEvent: {}
+[25.167230] (-) TimerEvent: {}
+[25.260753] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[25.261102] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[25.261344] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[25.267401] (-) TimerEvent: {}
+[25.367707] (-) TimerEvent: {}
+[25.443198] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[25.443433] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[25.460925] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.467890] (-) TimerEvent: {}
+[25.473726] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[25.522539] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[25.523032] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[25.555007] (clearpath_nav2_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.568100] (-) TimerEvent: {}
+[25.654541] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Configuring done (23.4s)\n'}
+[25.662958] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[25.668241] (-) TimerEvent: {}
+[25.693323] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Build files have been written to: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos\n'}
+[25.749492] (clearpath_nav2_demos) CommandEnded: {'returncode': 0}
+[25.754572] (clearpath_nav2_demos) JobProgress: {'identifier': 'clearpath_nav2_demos', 'progress': 'build'}
+[25.754650] (clearpath_nav2_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', '--', '-j8', '-l8'], 'cwd': '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'dsandeshh', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/sandesh dhakal/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'GIT_ASKPASS': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dsandeshh', 'TERM_PROGRAM_VERSION': '1.106.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6439b509-b771-47f0-a4e3-75401a16dd91.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dsandeshh', 'NAME': 'Code', '_': '/usr/bin/colcon', 'WSL_INTEROP': '/run/WSL/680_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'PATH': '/home/dsandeshh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dsandeshh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/python3.7/Scripts/:/mnt/c/python3.7/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sandesh dhakal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.2/bin:/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96a23725850e0062.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/dsandeshh/.vscode-server/data/User/workspaceStorage/e3eda9ae30e780de3b547b1cfe4ee178/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4a7e241d1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install/clearpath_nav2_demos:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '3ed65abb-4618-449c-863d-a0643959e446', 'PWD': '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install/clearpath_nav2_demos:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[25.768429] (-) TimerEvent: {}
+[25.828939] (clearpath_nav2_demos) CommandEnded: {'returncode': 0}
+[25.829814] (clearpath_nav2_demos) JobProgress: {'identifier': 'clearpath_nav2_demos', 'progress': 'install'}
+[25.845291] (clearpath_nav2_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos'], 'cwd': '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'dsandeshh', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/sandesh dhakal/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'GIT_ASKPASS': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dsandeshh', 'TERM_PROGRAM_VERSION': '1.106.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6439b509-b771-47f0-a4e3-75401a16dd91.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dsandeshh', 'NAME': 'Code', '_': '/usr/bin/colcon', 'WSL_INTEROP': '/run/WSL/680_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'PATH': '/home/dsandeshh/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dsandeshh/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/dsandeshh/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/python3.7/Scripts/:/mnt/c/python3.7/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sandesh dhakal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.2/bin:/mnt/c/Users/sandesh dhakal/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dsandeshh/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-96a23725850e0062.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/dsandeshh/.vscode-server/data/User/workspaceStorage/e3eda9ae30e780de3b547b1cfe4ee178/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c4a7e241d1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install/clearpath_nav2_demos:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '3ed65abb-4618-449c-863d-a0643959e446', 'PWD': '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dsandeshh/clearpath_nav2_demos/install/clearpath_nav2_demos:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[25.866914] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[25.867385] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.868567] (-) TimerEvent: {}
+[25.913938] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/localization.yaml\n'}
+[25.936523] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/nav2.yaml\n'}
+[25.951185] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/slam.yaml\n'}
+[25.966061] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a300/localization.yaml\n'}
+[25.968678] (-) TimerEvent: {}
+[26.006462] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a300/nav2.yaml\n'}
+[26.023188] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a300/slam.yaml\n'}
+[26.043947] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/localization.yaml\n'}
+[26.068846] (-) TimerEvent: {}
+[26.069268] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/nav2.yaml\n'}
+[26.084469] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/slam.yaml\n'}
+[26.100264] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/localization.yaml\n'}
+[26.116297] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/nav2.yaml\n'}
+[26.132427] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/slam.yaml\n'}
+[26.153009] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/localization.yaml\n'}
+[26.169020] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/nav2.yaml\n'}
+[26.169249] (-) TimerEvent: {}
+[26.184488] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/slam.yaml\n'}
+[26.200555] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/localization.yaml\n'}
+[26.225102] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/nav2.yaml\n'}
+[26.240156] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/slam.yaml\n'}
+[26.255323] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/localization.yaml\n'}
+[26.269445] (-) TimerEvent: {}
+[26.270149] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/nav2.yaml\n'}
+[26.290272] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/slam.yaml\n'}
+[26.305592] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/localization.yaml\n'}
+[26.321247] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/nav2.yaml\n'}
+[26.335969] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/slam.yaml\n'}
+[26.351913] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/localization.yaml\n'}
+[26.368765] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/nav2.yaml\n'}
+[26.369551] (-) TimerEvent: {}
+[26.416484] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/slam.yaml\n'}
+[26.440836] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/localization.launch.py\n'}
+[26.458308] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/nav2.launch.py\n'}
+[26.469743] (-) TimerEvent: {}
+[26.473122] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/slam.launch.py\n'}
+[26.490485] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps/warehouse.pgm\n'}
+[26.507309] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps/warehouse.yaml\n'}
+[26.524671] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/ament_index/resource_index/package_run_dependencies/clearpath_nav2_demos\n'}
+[26.543310] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/ament_index/resource_index/parent_prefix_path/clearpath_nav2_demos\n'}
+[26.568577] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/ament_prefix_path.sh\n'}
+[26.569892] (-) TimerEvent: {}
+[26.589348] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/ament_prefix_path.dsv\n'}
+[26.606011] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/path.sh\n'}
+[26.624527] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/path.dsv\n'}
+[26.642805] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.bash\n'}
+[26.665661] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.sh\n'}
+[26.670106] (-) TimerEvent: {}
+[26.680977] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.zsh\n'}
+[26.695491] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.dsv\n'}
+[26.709893] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/package.dsv\n'}
+[26.724902] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/ament_index/resource_index/packages/clearpath_nav2_demos\n'}
+[26.741098] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/cmake/clearpath_nav2_demosConfig.cmake\n'}
+[26.768883] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/cmake/clearpath_nav2_demosConfig-version.cmake\n'}
+[26.770211] (-) TimerEvent: {}
+[26.783874] (clearpath_nav2_demos) StdoutLine: {'line': b'-- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/package.xml\n'}
+[26.801538] (clearpath_nav2_demos) CommandEnded: {'returncode': 0}
+[26.870420] (-) TimerEvent: {}
+[26.970802] (-) TimerEvent: {}
+[27.071227] (-) TimerEvent: {}
+[27.124446] (clearpath_nav2_demos) JobEnded: {'identifier': 'clearpath_nav2_demos', 'rc': 0}
+[27.126303] (-) EventReactorShutdown: {}

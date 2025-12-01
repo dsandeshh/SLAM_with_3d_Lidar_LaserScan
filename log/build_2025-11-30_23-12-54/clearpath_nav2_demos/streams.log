@@ -1,0 +1,84 @@
+[0.152s] Invoking command in '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos
+[6.939s] -- The C compiler identification is GNU 13.3.0
+[11.173s] -- The CXX compiler identification is GNU 13.3.0
+[12.488s] -- Detecting C compiler ABI info
+[14.091s] -- Detecting C compiler ABI info - done
+[14.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.139s] -- Detecting C compile features
+[14.150s] -- Detecting C compile features - done
+[14.539s] -- Detecting CXX compiler ABI info
+[15.054s] -- Detecting CXX compiler ABI info - done
+[15.068s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.068s] -- Detecting CXX compile features
+[15.069s] -- Detecting CXX compile features - done
+[20.596s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[21.527s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[22.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[23.759s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[25.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.261s] -- Configured cppcheck include dirs: 
+[25.261s] -- Configured cppcheck exclude dirs and/or files: 
+[25.443s] -- Added test 'flake8' to check Python code syntax and style conventions
+[25.443s] -- Configured 'flake8' exclude dirs and/or files: 
+[25.460s] -- Added test 'lint_cmake' to check CMake code style
+[25.473s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[25.522s] -- Added test 'uncrustify' to check C / C++ code style
+[25.522s] -- Configured uncrustify additional arguments: 
+[25.554s] -- Added test 'xmllint' to check XML markup files
+[25.654s] -- Configuring done (23.4s)
+[25.662s] -- Generating done (0.0s)
+[25.693s] -- Build files have been written to: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos
+[25.753s] Invoked command in '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos
+[25.755s] Invoking command in '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos -- -j8 -l8
+[25.828s] Invoked command in '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos -- -j8 -l8
+[25.845s] Invoking command in '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos
+[25.866s] -- Install configuration: "Debug"
+[25.867s] -- Execute custom install script
+[25.913s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/localization.yaml
+[25.936s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/nav2.yaml
+[25.951s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/slam.yaml
+[25.965s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a300/localization.yaml
+[26.006s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a300/nav2.yaml
+[26.023s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a300/slam.yaml
+[26.043s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/localization.yaml
+[26.069s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/nav2.yaml
+[26.084s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/slam.yaml
+[26.100s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/localization.yaml
+[26.116s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/nav2.yaml
+[26.132s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/slam.yaml
+[26.152s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/localization.yaml
+[26.168s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/nav2.yaml
+[26.184s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/slam.yaml
+[26.200s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/localization.yaml
+[26.225s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/nav2.yaml
+[26.240s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/slam.yaml
+[26.255s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/localization.yaml
+[26.270s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/nav2.yaml
+[26.290s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/slam.yaml
+[26.305s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/localization.yaml
+[26.321s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/nav2.yaml
+[26.335s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/slam.yaml
+[26.351s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/localization.yaml
+[26.368s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/nav2.yaml
+[26.416s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/slam.yaml
+[26.440s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/localization.launch.py
+[26.458s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/nav2.launch.py
+[26.473s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/slam.launch.py
+[26.490s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps/warehouse.pgm
+[26.507s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps/warehouse.yaml
+[26.524s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/ament_index/resource_index/package_run_dependencies/clearpath_nav2_demos
+[26.543s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/ament_index/resource_index/parent_prefix_path/clearpath_nav2_demos
+[26.568s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/ament_prefix_path.sh
+[26.589s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/ament_prefix_path.dsv
+[26.605s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/path.sh
+[26.624s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/path.dsv
+[26.642s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.bash
+[26.665s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.sh
+[26.680s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.zsh
+[26.695s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.dsv
+[26.709s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/package.dsv
+[26.724s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/ament_index/resource_index/packages/clearpath_nav2_demos
+[26.740s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/cmake/clearpath_nav2_demosConfig.cmake
+[26.768s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/cmake/clearpath_nav2_demosConfig-version.cmake
+[26.783s] -- Symlinking: /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/install/clearpath_nav2_demos/share/clearpath_nav2_demos/package.xml
+[26.801s] Invoked command in '/home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dsandeshh/clearpath_nav2_demos/src/clearpath_nav2_demos/build/clearpath_nav2_demos
